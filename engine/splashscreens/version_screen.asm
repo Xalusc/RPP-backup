@@ -59,7 +59,7 @@ VersionScreenTilemap:
 VersionScreenTilemapEnd:
 
 VersionScreenText:
-	db   "Welcome to Red++"
+	db   "Welcome to RED++"
 	next "You are playing"
 IF DEF(_HARD) ; Hard Rom
 	next "The Hard Patch"

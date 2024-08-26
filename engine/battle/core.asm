@@ -2222,7 +2222,7 @@ DisplayBattleMenu:
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "Old Man@"
+	db "OLD MAN@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -3093,13 +3093,13 @@ DisabledText:
 	db "Disabled!@"
 
 OtherText:
-	db "Status@"
+	db "STATUS@"
 
 PhysicalText: ; Added for PS Split
-	db "Physical@"
+	db "PHYSICAL@"
 
 SpecialText: ; added for PS Split
-	db "Special@"
+	db "SPECIAL@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -7112,13 +7112,13 @@ InitWildBattle:
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
 	ld a, "G"
 	ld [hli], a
-	ld a, "h"
+	ld a, "H"
 	ld [hli], a
-	ld a, "o"
+	ld a, "O"
 	ld [hli], a
-	ld a, "s"
+	ld a, "S"
 	ld [hli], a
-	ld a, "t"
+	ld a, "T"
 	ld [hli], a
 	ld [hl], "@"
 	ld a, [wcf91]
@@ -8232,12 +8232,12 @@ PrintStatText:
 	jp CopyData
 
 StatsTextStrings:
-	db "Attack@"
-	db "Defense@"
-	db "Speed@"
-	db "Special@"
-	db "Accuracy@"
-	db "Evasion@"
+	db "ATTACK@"
+	db "DEFENSE@"
+	db "SPEED@"
+	db "SPECIAL@"
+	db "ACCURACY@"
+	db "EVASION@"
 
 StatModifierRatios:
 ; first byte is numerator, second byte is denominator

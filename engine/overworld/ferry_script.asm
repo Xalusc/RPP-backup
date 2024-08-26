@@ -204,8 +204,8 @@ DoIslandMenu:
 	
 WelcomeToSeagallopText:
 	text "Welcome aboard"
-	line "the Seagallop"
-	cont "Ferry!"
+	line "the SEAGALLOP"
+	cont "FERRY!"
 	
 	para "We travel all"
 	line "over carrying"

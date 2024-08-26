@@ -388,5 +388,5 @@ PrintGameVersionOnTitleScreen:
 VersionOnTitleScreenText:
 	db $60,$61,$62,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
 
-NintenText: db "Ninten@"
-SonyText:   db "Sony@"
+NintenText: db "NINTEN@"
+SonyText:   db "SONY@"

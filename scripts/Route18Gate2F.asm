@@ -16,7 +16,7 @@ Route18GateUpstairsText1:
 	jp TextScriptEnd
 	
 Trader5Name:
-	db "Jake@"
+	db "JAKE@"
 
 Route18GateUpstairsText2:
 	TX_ASM

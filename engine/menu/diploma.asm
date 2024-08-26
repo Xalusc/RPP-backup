@@ -94,10 +94,10 @@ DiplomaTextPointersAndCoords:
 	dwCoord 9, 16
 
 DiplomaText:
-	db $70,"Diploma",$70,"@"
+	db $70,"DIPLOMA",$70,"@"
 
 DiplomaPlayer:
-	db "Player@"
+	db "PLAYER@"
 
 DiplomaEmptyText:
 	db "@"
@@ -107,7 +107,7 @@ DiplomaCongrats:
 	next "diploma certifies"
 	next "that you have"
 	next "completed your"
-	next "#dex.@"
+	next "#DEX.@"
 
 DiplomaGameFreak:
 	db "GAME FREAK@"
